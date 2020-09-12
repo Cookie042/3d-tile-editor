@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <uie:ObjectField label="Settings" name="settings-field" binding-path="editorSettings">
+        <Style src="TMEditorUi.uss" />
+    </uie:ObjectField>
+    <ui:IMGUIContainer name="settings-editor">
+        <Style src="TMEditorUi.uss" />
+    </ui:IMGUIContainer>
+    <ui:VisualElement name="selection-preview" style="height: 200px; max-height: 200px;">
+        <Style src="TMEditorUi.uss" />
+    </ui:VisualElement>
+    <uie:EnumField label="Tool Mode" value="Active Tool Mode" binding-path="_activeToolMode" name="active-toolmode">
+        <Style src="TMEditorUi.uss" />
+    </uie:EnumField>
+    <ui:IMGUIContainer name="tool-settings-editor">
+        <Style src="TMEditorUi.uss" />
+    </ui:IMGUIContainer>
+    <uie:FloatField label="PieceRotation" value="42.2" name="angle-field" binding-path="activeRotation">
+        <Style src="TMEditorUi.uss" />
+    </uie:FloatField>
+    <uie:ObjectField label="Selected Object" name="selected-object-field" binding-path="selectedTilePrefab" style="display: flex;">
+        <Style src="TMEditorUi.uss" />
+    </uie:ObjectField>
+    <ui:Button text="Resort Objects" name="resort-objects-button">
+        <Style src="TMEditorUi.uss" />
+    </ui:Button>
+    <uie:Toolbar name="groups-toolbar">
+        <Style src="TMEditorUi.uss" />
+    </uie:Toolbar>
+    <ui:ListView focusable="True" item-height="70" name="object-list" style="flex-grow: 1;">
+        <Style src="TMEditorUi.uss" />
+    </ui:ListView>
+</ui:UXML>

@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d2301ebd6446b491425f177f944228, type: 3}
+  m_Name: TMEditorSettings
+  m_EditorClassIdentifier: 
+  cellSize:
+    x: 5
+    y: 1.5
+    z: 5
+  groupData:
+    m_keys:
+    - Grass
+    - Road
+    - Buildings
+    - Whitebox
+    - Roofs
+    - Sidewalks
+    - WaterEdge
+    - Shops
+    m_values:
+    - tiles:
+      - {fileID: 195558, guid: 7b30b5ba44201104fba4e71a527b6905, type: 3}
+      - {fileID: 181064, guid: bebb4c413c96c0b4481e8208ea89828d, type: 3}
+      - {fileID: 131274, guid: b6b1bafe204782c43804e201982d350e, type: 3}
+      - {fileID: 128872, guid: 0c0aeb13e5f9e324ebd2bef52c75b6a2, type: 3}
+      - {fileID: 185892, guid: 4cc8f1948a42ebe40ac5459f911aaf3b, type: 3}
+    - tiles:
+      - {fileID: 135246, guid: fa07ca939fb86614e840203d85f23f08, type: 3}
+      - {fileID: 159042, guid: 1ac8b9099f0c47e41a84ef1f2e41988c, type: 3}
+      - {fileID: 114394, guid: a1caee14721832a4089a253d611bdc10, type: 3}
+      - {fileID: 108482, guid: 4c588df48d373f5448513a886280f4af, type: 3}
+      - {fileID: 198078, guid: 7cbed2c339c8db94cb05278ed2f7e14b, type: 3}
+      - {fileID: 165012, guid: dab5db0c0226560499e1021898aafb64, type: 3}
+      - {fileID: 138646, guid: c838be5f7abd9c64db9643ebadf0c932, type: 3}
+      - {fileID: 136290, guid: 69af78e726c8b9842bb53e9d215270fa, type: 3}
+      - {fileID: 175832, guid: d2b133bd1e0723046a270de71e937731, type: 3}
+      - {fileID: 181870, guid: a7995c77c0122324ca14027eaff6b47f, type: 3}
+      - {fileID: 109764, guid: 44ca69f08a790524aaed2c2ad405a1b9, type: 3}
+      - {fileID: 155758, guid: 13597cf796a53d543bab61fa348c4c56, type: 3}
+      - {fileID: 194432, guid: 7e547ff22275ff24389c0fcbaf1f0afc, type: 3}
+      - {fileID: 182272, guid: f2ed383c4eaf7fd4eb19ed7ee4347e0a, type: 3}
+      - {fileID: 6695393822230382881, guid: 262ee9f17c084ea45be833c1670b900c, type: 3}
+    - tiles:
+      - {fileID: 165386, guid: 9384e4f7925dd0d47a003b910f826bf8, type: 3}
+      - {fileID: 173494, guid: ca5af9b35ab3f6d418a4a402844936e3, type: 3}
+      - {fileID: 169392, guid: c828aad58e045884d9bcabfcdacc69fa, type: 3}
+      - {fileID: 160420, guid: 105b953fd34734b40bb42cee7100a6dd, type: 3}
+      - {fileID: 134626, guid: 6c5cf72eed364734aa359fd03de15100, type: 3}
+      - {fileID: 111836, guid: 4617dc66e78dfbc42bd97ab7b9d077cb, type: 3}
+      - {fileID: 151176, guid: c498c5a0f7820b142b3b929366f2cf35, type: 3}
+      - {fileID: 134102, guid: afe0ad4fc8b424945846ae10043c796b, type: 3}
+      - {fileID: 179514, guid: 2ec41ef6c18c5e64aaefa3d4e6b2d9bb, type: 3}
+      - {fileID: 163466, guid: b2e8639d9a0fc7b48b6d71f8950a7686, type: 3}
+      - {fileID: 115290, guid: 0b1f3d2a6e07d63448f8399665932fcc, type: 3}
+      - {fileID: 130316, guid: e554fc2e32c92274e92a501e72f5db1f, type: 3}
+      - {fileID: 159368, guid: e97c4383dd13fb54fb98ecc4e4be2ec3, type: 3}
+      - {fileID: 151176, guid: c498c5a0f7820b142b3b929366f2cf35, type: 3}
+    - tiles:
+      - {fileID: 1264787267559808142, guid: 0e64d583fe94e30499da8931efe6a964, type: 3}
+      - {fileID: 8236716409162718541, guid: c2e5a2519e309bf42a83daae70607dc8, type: 3}
+      - {fileID: 2843111053381244346, guid: f7b3f202d3ba3c84e9e8ecad2c018ec7, type: 3}
+      - {fileID: 2980928122009988735, guid: cf44d3b006e61b84fbb6bb36258aaec0, type: 3}
+    - tiles:
+      - {fileID: 3272824060539995830, guid: dce1de3f5fe672e40b4826f9014a0fc2, type: 3}
+      - {fileID: 8506314284788630940, guid: 886bfe5d371067f42ac89e123d25cbfe, type: 3}
+      - {fileID: 3142419455371910066, guid: 8bb8525fef0f231478446e2e32dada32, type: 3}
+    - tiles:
+      - {fileID: 198914, guid: 260ea4bf1ba71314c9c3833b491586bc, type: 3}
+      - {fileID: 151086, guid: ac89877d99edb1347a2f655053ce7b64, type: 3}
+      - {fileID: 124612, guid: 022ffec03fad20a44bfd7a0026ee101a, type: 3}
+      - {fileID: 107438, guid: 8458e1021e0b4a14b82c8e49978ee608, type: 3}
+      - {fileID: 159680, guid: d8e7bc81108d6df4f9af32b0399eb064, type: 3}
+      - {fileID: 152188, guid: d61bd59519ec86446a34df8af9f85be5, type: 3}
+      - {fileID: 184956, guid: 35d21aaf608eba24285e42aad64a70a8, type: 3}
+      - {fileID: 146688, guid: 8bb0b83b7824d964fa1d723d2bddb75e, type: 3}
+      - {fileID: 116122, guid: ed8c62e1e1e0ce744a951227804b2bec, type: 3}
+      - {fileID: 178866, guid: 2b129740add29794081f519e9ab69ff5, type: 3}
+      - {fileID: 116912, guid: 3411beaa9a128784baf5d279eb959b9d, type: 3}
+      - {fileID: 183674, guid: f0924feddc9f45147a1b3b077269f520, type: 3}
+      - {fileID: 195910, guid: ae7b8255185ace64ca379cb1ca3b24e6, type: 3}
+      - {fileID: 138182, guid: 34bd91b097c07bb44bea4694542e023b, type: 3}
+    - tiles:
+      - {fileID: 165890, guid: 412e629bc1aeba94f84bc67e32a5cc7f, type: 3}
+      - {fileID: 124086, guid: 005add2e805dff846a22a816bce2f715, type: 3}
+      - {fileID: 163794, guid: 91ccf0d6e58213544b5f911bb77f24c0, type: 3}
+      - {fileID: 108702, guid: 12164e8f6f9ab2f4589ed7dd89491853, type: 3}
+      - {fileID: 146270, guid: 91023e8405ce7764eb845f4aa7f5ca0e, type: 3}
+      - {fileID: 150134, guid: 60d3688bc6832bf45ac9ea2bf1c8ab03, type: 3}
+    - tiles:
+      - {fileID: 109168, guid: ade248290e90bae40b4a349101c343c8, type: 3}
+      - {fileID: 131012, guid: 694588147c2fd7e41b0105d7054a7f1a, type: 3}
+      - {fileID: 126382, guid: e390f42c7625c914e9082218b571c91a, type: 3}
+      - {fileID: 195682, guid: 6e1b6bb6069c8c446bf14668e5eda0b4, type: 3}
+      - {fileID: 192830, guid: 77dd7072ed0a2784d87c474eb9a288b7, type: 3}
+      - {fileID: 113012, guid: 1e70e6b05165f864f8c42dab5a2544f9, type: 3}
+      - {fileID: 143728, guid: ea45161d31d19c540af5f5091648f652, type: 3}
+      - {fileID: 115170, guid: 6c5d6f00dd2f1d34e8b206b956e60329, type: 3}
+  materialDictionary:
+    m_keys:
+    - Main
+    - Road
+    - Other
+    m_values:
+    - materials:
+      - {fileID: 2100000, guid: 62e25ef75a2216f418d06453c9ad15cb, type: 2}
+      - {fileID: 2100000, guid: a8e32d2cd442e564aa46c99f0ae7c0c8, type: 2}
+      - {fileID: 2100000, guid: c01b7c8cb1175b54aab24b670c2d58dd, type: 2}
+      - {fileID: 2100000, guid: 49ef76ea47782eb4b93ac08b234fd6c3, type: 2}
+      - {fileID: 2100000, guid: ee26ded8aeae32044836748251f93891, type: 2}
+      - {fileID: 2100000, guid: f145fd98abc7a354f83c3a2e8df80a75, type: 2}
+      - {fileID: 2100000, guid: 97942cb5527e6f24eb8b8f5c86f8744d, type: 2}
+      - {fileID: 2100000, guid: ae4870cba172f524491e4431ce936a9d, type: 2}
+      - {fileID: 2100000, guid: ac4517348fefb604bbf10afeb378a491, type: 2}
+      - {fileID: 2100000, guid: ee5d59fcc8497a641905c26644c20880, type: 2}
+      - {fileID: 2100000, guid: 912f300affe60c543ac3ac40ef980902, type: 2}
+      - {fileID: 2100000, guid: bb694a94be4a3c64ca9ef44c62415782, type: 2}
+    - materials:
+      - {fileID: 2100000, guid: 9415d5fbf987e4d47b3c90bea3a0d824, type: 2}
+      - {fileID: 2100000, guid: f37ce3b4817ff064eb43413b670f0fa1, type: 2}
+      - {fileID: 2100000, guid: 832e3d44954de9c408d5cdcafc05fc9e, type: 2}
+      - {fileID: 2100000, guid: 02e41622a0206f742af528cdf0da7485, type: 2}
+    - materials:
+      - {fileID: 2100000, guid: 53cf5c0ff424ff9458c56526516b63ec, type: 2}
+      - {fileID: 2100000, guid: c29d9dff2056b1543bbb70ec32427a62, type: 2}
+      - {fileID: 2100000, guid: 2d4d2ed696e5ade49ae50d4e19151de5, type: 2}
+  lastActiveTool: 1
+  previewobjectMaterial: {fileID: 8811591885966085128, guid: 7d04606ef30981142996e9d39d654345,
+    type: 3}
